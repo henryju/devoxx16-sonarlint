@@ -7,11 +7,11 @@ import java.nio.file.Path;
 
 public class CsvParser {
 
-  public int totalAnimalWeight(Path cvsPath) {
+  public int totalAnimalWeight(Path csvPath) {
     int result = 0;
 
     try {
-      BufferedReader reader = new BufferedReader(new FileReader(cvsPath.toFile()));
+      BufferedReader reader = new BufferedReader(new FileReader(csvPath.toFile()));
 
       while (true) {
         String line = reader.readLine();
