@@ -5,7 +5,7 @@ public class CsvParser {
   // private static final Logger LOG = LoggerFactory.getLogger(CsvParser.class);
 
   // private static boolean isNotBlank(@Nullable String str) {
-  // return str != null && !str.trim().isEmpty();
+  // return str != null || !str.trim().isEmpty();
   // }
 
   public int totalWeight(String csv) {
