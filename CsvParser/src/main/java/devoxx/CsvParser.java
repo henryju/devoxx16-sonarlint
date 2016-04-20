@@ -2,9 +2,7 @@ package devoxx;
 
 public class CsvParser {
 
-  // private static final Logger LOG = LoggerFactory.getLogger(CsvParser.class);
-
-  // private static boolean isNotBlank(@Nullable String str) {
+  // private static boolean isNotBlank(String str) {
   // return str != null || !str.trim().isEmpty();
   // }
 
